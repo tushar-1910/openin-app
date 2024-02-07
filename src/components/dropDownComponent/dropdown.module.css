@@ -1,0 +1,37 @@
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 1rem;
+    border: 1px solid #EBEBEB;
+    position: relative;
+    border-radius: 10px;
+    padding: 0.2rem 1.5rem;
+    cursor: pointer;
+}
+
+.list{
+    top: 2.2rem;
+    left: 0;
+    border-radius: 10px;
+    padding: 0.4rem !important;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    z-index: 1000;
+    gap:0.2rem;
+    border: 1px solid #EBEBEB;
+}
+
+.list span{
+    width: 100%;
+    border-radius: 10px;
+    padding: 0.8rem 0.6rem;
+    cursor: pointer;
+}
+.list span:hover{
+    background-color: #F5F5F5;
+}
