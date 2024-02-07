@@ -1,10 +1,11 @@
-import './App.css';
-import LoginPage from './components/loginPageComponent/loginPage';
-import { GoogleOAuthProvider } from '@react-oauth/google';
-import Dashboard from './components/dashboardPageComponent/dashboard';
+import "./App.css";
+import LoginPage from "./components/loginPageComponent/loginPage";
+import { GoogleOAuthProvider } from "@react-oauth/google";
+import Dashboard from "./components/dashboardPageComponent/dashboard";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const clientId = '467459100384-fj9t4opkhnoa3vjc5mtmgj5ie11mb316.apps.googleusercontent.com'
+const clientId =
+  "991129247780-lcdedv69mpg3p80rhi4pljqfmvq0iifo.apps.googleusercontent.com";
 function App() {
   return (
     <GoogleOAuthProvider clientId={clientId}>
